@@ -27,7 +27,6 @@ body::before{
  }
 .imagen{
     flex:1;
-    border: 1px solid black;
     width:10%;
     heigth:10%;
 }
