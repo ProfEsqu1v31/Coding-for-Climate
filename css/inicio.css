@@ -8,6 +8,9 @@ h1{ border-color: aliceblue;}
     background-position: center;
     background-attachment: fixed;
     background-color:red;
+    width: 80%;
+    margin:auto;
+    border:solid red 2px;
 }
 
 
