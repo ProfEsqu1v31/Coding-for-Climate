@@ -1,0 +1,113 @@
+*{
+    color: beige;
+    font-family: "Frank Ruhl Libre", serif;
+}
+
+body{
+    min-height:100vh;
+    margin: 0;
+    background-image: url("../imagenes/belo.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    position: relative;
+}
+h1{
+    font-size: 250%;
+    text-align: center;
+    line-height:100px;
+    color:aliceblue;
+    background-color: rgba(97, 99, 100, 0.35);
+}
+/*Esto es el div que contiene la imagen*/
+#imagen{
+    float: right;
+    margin: 20px;
+    margin-right: 20px;
+    border: 3px solid black;
+    width: 45%;
+    height: 45%;
+}
+img{
+    width: 100%;
+}
+.h1{
+    font-size: 20px;
+}
+/*Es el texto que esta debajo de la imagen*/
+#pie{
+    font-size: 120%;
+    font-style: italic;
+    text-align: center;
+    color:aliceblue;
+}
+/*Es el párrafo principal*/
+#principal{
+    margin: 20px;
+    color:aliceblue;
+    font-size: 190%;
+    font-style: normal;
+    font-weight:300;
+    text-align: left;
+}
+
+
+.galeria-contenedor{ /*titulo*/
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap:100px;
+    padding:50px;
+    margin-top: 300px;
+    grid-auto-flow: dense;
+    }
+    .galeria-item {
+        display:flex;
+        border-radius: 4px;
+        background-image: linear-gradient(rgba(255,255,255,0), rgba(0,0,0,0.88),80%),
+            url("../imagenes/degradacion.jpg");
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.3s ease-in-out;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .galeria-b {
+        display:flex;
+        border-radius: 4px;
+        background-image: linear-gradient(rgba(255,255,255,0), rgba(0,0,0,0.88),80%),
+            url("../imagenes/destacado.jpg");
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.3s ease-in-out;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .galeria-b:hover {
+        filter: opacity(0.9);
+        transform: scale(1.04);
+    }
+    .galeria-item:hover {
+        filter: opacity(0.9);
+        transform: scale(1.04);
+    }
+    @media(min-width:600px){
+        .alto{
+            background-image: linear-gradient(rgba(255,255,255,0), rgba(0,0,0,0.88),80%),
+            url("../imagenes/agroquimicos.jpg");
+        grid-column: span 1;
+        }
+        .bajo{
+            background-image: linear-gradient(rgba(255,255,255,0), rgba(0,0,0,0.88),80%),
+            url("../imagenes/solution.jpg");
+        grid-column: span 1;
+        }
+        }
+
+
+
+
+
+
