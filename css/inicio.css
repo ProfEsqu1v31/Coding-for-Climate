@@ -2,11 +2,12 @@
     color: aliceblue;
 }
 h1{ border-color: aliceblue;}
-#cuerpo{
-    background: url("../imagenes/imagen\ inicio.jpg");
+#banner{
+    /*background: url("../imagenes/imagen\ inicio.jpg");*/
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    background-color:red;
 }
 
 
