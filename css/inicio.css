@@ -3,7 +3,7 @@
 }
 h1{ border-color: aliceblue;}
 #banner{
-    /*background: url("../imagenes/imagen\ inicio.jpg");*/
+    background: url("../imagenes/logo.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
