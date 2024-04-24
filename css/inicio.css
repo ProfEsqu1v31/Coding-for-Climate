@@ -9,7 +9,8 @@
     background-attachment: fixed;
     background-color:red;
     width: 80%;
-    height:400px;
+    min-width: 100vw;
+    min-height: 100vh; 
     margin:auto;
     border:solid red 2px;
 }
@@ -17,12 +18,13 @@
 
 .galeria-contenedor
 { display:flex;
+  border: solid blue 1px;  
  
  }
 .imagen{
-    flex:1;
+    flex:auto;
     width:25%;
-    heigth:25%;
+    height:25%;
     border: 2px Solid green;
 }
     
