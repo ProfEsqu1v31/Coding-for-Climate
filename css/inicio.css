@@ -1,29 +1,28 @@
-*{ 
-    color: aliceblue;
+header{
+    height: 100%;
+    background-color: #397534ff;
+}
+header img{
+    width: 100%;
+
+}
+.Contenedor{
+    width: 100%;
+    border:dashed 2px red;
+    display: flex;
+    margin-top:50px;
 }
 
-#banner{
-    background-image: url("../imagenes/logo.png");
-    background-size: 100% 100%;
-    background-position: center;
-    background-attachment: fixed;
-   
-    
-    
+.item{
+    width: 20%;
+    height: 200px;
+    border:solid 1px green;
+    padding-right:6%;
+    align-items: center;
+    align-content: center;
 }
-
-
-.galeria-contenedor
-{ display:flex;
-  border: solid blue 1px;
-  width: 100%;
-  height: 300px;  
- 
- }
-.imagen{
-    flex:auto;
-    width:25%;
-    height:100%;
-    
+.item img{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
 }
-    
