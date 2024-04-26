@@ -1,0 +1,140 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+#encabezado {
+    width: 100%;
+    height: 100px;
+    background: rgb(223,194,125);
+}
+.menu ul{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+}
+.menu li{
+    border-right: 2px solid #ffff;
+}
+.menu li :hover{
+    background: rgba(246,232,195,1); 
+}
+.menu li a{
+    display: block;
+    padding: 15px;
+    color:#ffff;
+    text-decoration: none;
+}
+#boton-menu{
+    display:none;
+}
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+}
+.menu{
+    width: 70%;
+    height: 70px;
+    /*background: rgb(250, 231, 155);*/
+    float: left;
+    text-align: right;
+    padding: 30px;
+}   
+.logo{
+    float: left;
+ }
+#WP{
+    width: 65%;
+    height: 130px;
+    padding: 10px;
+    margin: 40px;
+    color: #4AACB9;
+    font-size: 70px;
+    font-family: "Archivo Narrow", sans-serif;
+    font-optical-sizing: auto;
+}
+#parrafo1{
+    width: 55%;
+    height: 15%;
+    padding: 20px;
+    margin: 15px;
+    margin-top: 7%;
+    margin-left: 3%;
+    font-family: "Archivo Narrow", sans-serif;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    line-height: 160%;;
+    text-align: justify;
+}
+#img1{
+    float: right;
+    width:35%;
+    height: 25%;
+    padding: 20px;
+    margin-top: 5%;
+}
+#subtitulo{
+   padding: 15px;
+    margin:10px;
+    margin-top: 4%;
+    color: rgb(0,60,48);
+    font-size: 40px;
+    font-family: "Noto Sans Mono", monospace;
+    font-optical-sizing: auto;
+    text-align: center;
+}
+.contenedor{
+    display: flex;
+}
+.caja{
+    flex:1;
+    margin: 10px;
+    border: solid 1px rgb(0,60,48);
+    padding:20px;
+    text-align: center;
+    background-color: rgb(246,232,195);
+}
+.titulo{
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 10px;
+font-family: "Noto Sans Mono", monospace;
+font-optical-sizing: auto;
+color: rgb(0,60,48);
+}
+#CC{
+    margin-top: 50%;
+    height: 350px;
+    padding: 20px;
+    margin:10px;
+}
+#parrafo1{
+    width:55%;
+    padding: 10px;
+    margin:10px;
+    font-size: 22px;
+    line-height: 140%;
+    text-align: justify;
+}
+#imagen{
+    float:right;
+    width: 40%;
+    margin-top: 5%;
+}
+#problem{
+font-size: 40px;
+font-weight: bold;
+margin-bottom: 10px;
+font-family: "Noto Sans Mono", monospace;
+font-optical-sizing: auto;
+color: rgb(0,60,48);
+}
+#lista{
+    font-size: 20px;
+    width: 55%;
+    margin: 10px;
+    font-family: "Archivo Narrow", sans-serif;
+    font-optical-sizing: auto;
+}
