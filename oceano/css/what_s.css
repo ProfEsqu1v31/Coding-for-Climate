@@ -1,0 +1,117 @@
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+    list-style: none;
+   text-decoration: none;
+}
+/* este es el menú*/
+.menuuu{
+    width: 100%;
+    background-color: rgb(180, 208, 212);
+}
+.menu ul{
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+
+}
+.menu li{
+    border-right: 0px solid rgb(255, 255, 255);
+}
+.menu li:hover{
+    background-color: rgba(255, 255, 255, 0.747);
+}
+.menu li a{
+    display:block;
+    padding: 15px 60px;
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+    
+}
+
+/*fondo de pantalla*/
+body{
+    background-image:url("../imagenes/what_s-happening.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    min-height:100vh;
+    position: relative;
+    background-size: 100%;
+
+}
+.sec{
+    width:50%;
+    height: auto;
+    margin:auto;
+    border:2px;
+    font-size: 32px;
+    
+}
+
+.titul{
+    font-size: 30px;
+    margin-top: 0%;
+    padding-top: 10%;
+
+}
+#primero{
+    color: rgb(168, 215, 223);
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 1); 
+    
+    margin-left: 27%;
+    font-size: 150%;
+    
+}   
+#segundo{
+    color:#f3f3f3;
+}
+#concecuencia{
+
+    margin-top: 0.5%;
+    margin-left: 37.5%;
+}
+.im{
+    position: relative;
+    scale: 0.5;
+    border-radius: 30px; 
+    margin-top: 0.5%;
+    margin-left: 17%;
+    margin-top: -6%;
+}   
+.texto{
+    font-size: 120%;
+    position: absolute;
+    margin-left: -38.5%;
+    border: solid 40px rgb(168, 215, 223);
+    background-color: rgb(168, 215, 223);
+    margin-top: -8%;
+    padding: 0%;
+    opacity: 1;
+    text-align: left;
+
+   
+
+}
+
+.LICOMPANIA{
+    background-color: rgb(131, 154, 158);
+    opacity: 1;
+}
+
+.TOH1{
+    
+    text-align: center;
+    color: rgb(168, 215, 223);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 1); 
+    font-size: 150%;
+}
+
+
+.logo{
+    position: absolute;
+    scale: 0.6;
+    z-index: 1;
+    margin-left: 83.5%;
+    margin-top: -1.5%;
+}   

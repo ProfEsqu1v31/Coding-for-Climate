@@ -1,0 +1,93 @@
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+    list-style: none;
+   text-decoration: none;
+}
+/* este es el menú*/
+.menuuu{
+    width: 100%;
+    background-color: rgb(180, 208, 212);
+}
+.menu ul{
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+
+
+}
+.menu li{
+    border-right: 0px solid rgb(255, 255, 255);
+}
+.menu li:hover{
+    background-color: rgba(255, 255, 255, 0.747);
+}
+.menu li a{
+    display:block;
+    padding: 15px 60px;
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+   
+}
+/* este es el encabesado y el titulo*/
+.header{
+    background-image:url(https://static.vecteezy.com/system/resources/previews/002/223/868/large_2x/woman-s-hands-doing-a-heart-shape-on-a-sunset-sky-and-bokeh-background-love-valentine-day-concept-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    min-height: 60vh;
+    position: relative;
+}
+
+
+.titul{
+    margin: 30px 200px;
+    font-size: 30px;
+    color:whITE;
+}
+/*el cuerpo de el programa*/
+.contenedor{
+    display: flex;
+    background-color: bisque;
+}
+.corazon{
+    width: 350px;
+    margin-left: 50px;
+}
+.texto{
+    align-self: center;
+    font-size: 30px;
+}
+.titulo{
+    padding: 20px;
+    font-size: 40px;
+}
+.parrafo{
+    padding: 50px;
+    font-size:100%;
+    margin-left: 50px;
+}
+.LICOMPANIA{
+    background-color:rgb(131, 154, 158);
+    opacity: 1;
+}
+
+
+.texto-con-fondo {
+    display: inline-block; /* Ajusta el contenedor al tamaño del texto */
+   
+    margin-left: 35%;
+    margin-top: 7.5%;
+    font-size: 220%;
+    padding: 45px; /* Añade un poco de espacio alrededor del texto */
+    border-radius: 50%;
+}
+
+.logo{
+    position: absolute;
+    scale: 0.6;
+    z-index: 1;
+    margin-left: 83.5%;
+    margin-top: -1.5%;
+}

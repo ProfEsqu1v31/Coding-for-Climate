@@ -1,0 +1,175 @@
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/* este es el menú*/
+.menuuu{
+    width: 100%;
+    background-color: rgb(180, 208, 212);
+}
+.menu ul{
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.menu li{
+    border-right: 0px solid rgb(255, 255, 255);
+}
+.menu li:hover{
+    background-color: rgba(255, 255, 255, 0.747);
+}
+.menu li a{
+    display:block;
+    padding: 15px 60px;
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+}
+.contenedor{
+    width: 100%;
+
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    position:absolute;
+    background-color: rgb(69, 160, 221);
+    
+}
+.imgp{
+    display: flex;
+    width:30%;
+    padding: 25px;
+    margin: 25px;
+    
+
+}
+.imgp img{
+    
+    width: 50%;
+    height: 80%;
+    border: 2px solid black;
+    box-shadow: 0 0 0 2px white;
+    flex:auto;
+    border-radius: 10%;
+}
+.parrafo{
+    flex:auto;
+    width:30%;
+    padding: 25px;
+    /*margin left: 100px;*/
+   /* top: 15%;
+    right: 15px;*/
+    text-align: center;
+
+    
+    
+}
+.titul2{
+    border:2px solid rgb(0, 0, 0);
+    margin-left: 10%;
+}
+.titulo2 {
+margin-top: 10px;
+margin-left: 37%;
+font-size: 200%;
+color: white;
+
+}
+.subtitulo{
+
+margin-left: 2%;
+font-size: 150%;
+color: white;
+padding-bottom: 10%;
+padding-top: 15%;
+margin-top: 33%;
+text-align: center;
+
+
+}
+.texto{
+    align-self: center;
+    margin-left: 10%;
+    
+}
+.titulo{
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.747);
+    margin-left: 10%;
+    
+}
+.titul{
+    margin-top: 2%;
+    margin-left: 25%;
+    font-size: 200%;
+    color: white;
+    background-color: rgb(155, 209, 209);
+    position: absolute;
+    text-align: center;
+    opacity: 1;
+    border: solid 10px rgb(155, 209, 209);
+    border-radius: 30%;
+}
+.par1{
+    flex: auto;
+    width:30%;
+    padding: 0px;
+    margin-left: -10%;
+    text-align: center;
+    margin-top: -25%;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 25px;
+
+}
+
+.par2{
+    flex: auto;
+      width:30%;
+      padding: 0px;
+  margin-left: -5%;
+      text-align: center;
+      margin-top: -25%;
+      font-family: "Oswald", sans-serif;
+      font-optical-sizing: auto;
+      font-size: 25px;
+  }
+
+  .par3{
+      flex: auto;
+      width:30%;
+      padding: 0px;
+      margin-left: 0%;
+      text-align: center;
+      margin-top: -25%;
+      font-family: "Oswald", sans-serif;
+      font-optical-sizing: auto;
+      font-size: 25px;
+}
+
+  .LICOMPANIA{
+      background-color:rgb(131, 154, 158);
+      opacity: 1;
+    }
+
+header{
+    background-image:url(../imagenes/tortuga.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    scale: 0.6;
+    z-index: 1;
+    margin-left: 83.5%;
+    margin-top: -1.5%;
+}
