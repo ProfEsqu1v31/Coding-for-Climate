@@ -1,0 +1,294 @@
+*{
+    padding: 0px;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+  
+  .fondo-ajustado {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .fondo-ajustado::after {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    mix-blend-mode: multiply; 
+  }
+    
+    header{
+        width: 100%;
+        background: rgb(4, 34, 56);
+        border-radius: 10px; 
+        border: 3px solid rgb(0, 0, 0);
+    }
+    
+    .menu ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .menu li {
+        border-right: 3px solid rgb(0, 0, 0);
+    }
+    
+    .menu li:hover {
+        background: rgba(0, 0, 0, 0.3);
+    }
+    
+    .menu li a {
+        display: block;
+        padding: 1px 10px;
+        color: white;
+        text-decoration: none;
+        transition: all 0.3s ease; 
+        
+        background-color: white(4, 34, 56);
+        color:whitesmoke ;
+        text-shadow: 2px 2px 4px black;
+    }
+
+    a {
+        text-decoration: none; 
+        color: #ffffff;
+        font-family: 'Comic Sans MS', cursive;  
+    }
+
+    a:hover {
+        color: red;
+    }
+
+    .cajaimg{
+        width: 10%; 
+        height: 10%; 
+        padding: 10%; 
+        box-sizing: border-box; 
+        background-image: url('../img/solar.jpg'); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+        position: absolute; 
+        margin: 0 auto; 
+        border-radius: 20%;
+        border: 3px solid rgb(4, 34, 56);
+        margin-top: 5%;
+        margin-left: 4.5%;
+    }
+    .rayo1{
+        width: 33%; 
+        height: 17%; 
+        background-color: rgb(4, 34, 56);   
+        box-sizing: border-box;  
+        position: absolute; 
+        margin: 0 auto; 
+        border-radius: 1%;
+        font-size: 250%;
+        border: 5% solid rgb(4, 34, 56);
+        border-radius: 20%;
+        margin-top: 52%;
+        margin-left: -20%;
+    }
+    .rayo2{
+        width: 75%; 
+        height: 19%; 
+        background-color: rgb(4, 34, 56);
+        box-sizing: border-box;  
+        position: absolute; 
+        margin: 0 auto; 
+        border-radius: 1%;
+        font-size: 250%;
+        border: 5% solid rgb(4, 34, 56);
+        border-radius: 7.5%;
+        margin-top: 52%;
+        margin-left: -35%;
+    }
+    .rayo3{
+        width: 75%; 
+        height: 19%; 
+        background-color: rgb(4, 34, 56);
+        box-sizing: border-box;  
+        position: absolute; 
+        margin: 0 auto; 
+        border-radius: 1%;
+        font-size: 250%;
+        border: 5% solid rgb(4, 34, 56);
+        border-radius: 20%;
+        margin-top: 52%;
+        margin-left: -35%;
+    }
+
+    .rayo4{
+        width: 50%; 
+        height: 19%; 
+        background-color: rgb(4, 34, 56);
+        box-sizing: border-box;  
+        position: absolute; 
+        margin: 0 auto; 
+        border-radius: 1%;
+        font-size: 250%;
+        border: 5% solid rgb(4, 34, 56);
+        border-radius: 20%;
+        margin-top: 52%;
+        margin-left: -20%;
+    }
+
+    .cajaimg2{
+        width: 10%; 
+        height: 10%; 
+        background-color: #f0f0f0; 
+        padding: 10%; 
+        box-sizing: border-box; 
+        background-image: url('../img/energiaeolica1.jpg');
+        filter: brightness(1); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+        position: absolute; 
+        margin: 0 auto; 
+        border-radius: 10px;
+        margin-top: 5%;
+        border: 3px solid rgb(4, 34, 56);
+        border-radius: 20%;
+        margin-left: 28%;
+    }
+    .cajaimg3{
+        width: 10%; 
+        height: 10%; 
+        background-color: #f0f0f0; 
+        padding: 10%; 
+        box-sizing: border-box; 
+        background-image: url('../img/hidroelectric5.jpg');
+        filter: brightness(1.4); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+        position: absolute; 
+        margin: 0 auto;
+        margin-top: 5%;
+        border-radius: 10px; 
+        border: 3px solid rgb(4, 34, 56);
+        border-radius: 20%;
+        margin-left: 51%;
+    }
+    .cajaimg4{
+        width: 10%; 
+        height: 10%; 
+        background-color: #f0f0f0; 
+        padding: 10%; 
+        box-sizing: border-box; 
+        background-image: url('../img/nuclear.jpg');
+        filter: brightness(1.5); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+        position: absolute; 
+        margin: 0 auto;
+        margin-top: 5%;
+        border-radius: 10px;
+        border-radius: 20%;
+        border: 3px solid rgb(4, 34, 56);   
+        margin-left: 75%;
+    }
+
+    
+@media screen and (min-width: 1280px) {
+    .menu li a {
+        padding: 1px 10px;
+    }
+}
+@media screen and (max-width: 1919px) {
+    .menu li a {
+        padding: 1px 10px;
+    }
+}
+@media screen and (max-width: 1870px) {
+    .menu li a {
+        padding: 1px 10px;
+    }
+}
+@media screen and (max-width: 1700px) {
+    .menu li a {
+        padding: 1px 10px;
+    }
+}
+@media screen and (max-width: 1550px) {
+    .menu li a {
+        padding: 1px 10px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .menu li a {
+        padding: 1px 10px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .menu li a {
+        padding: 1px 10px;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .menu li a {
+        padding: 1px 10px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .menu li a {
+        padding: 1px 10px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .menu li a {
+        padding: 1px 10px;
+        font-size: 0.4em;
+        font-size: 100%;
+    }
+    header{
+        width: 138%;
+    }
+    .rayo1{
+
+        font-size: 80%;
+    }
+    .rayo2{
+
+        font-size: 80%;
+    }
+    .rayo3{
+
+        font-size: 80%;
+    }
+    .rayo4{
+
+        font-size: 80%;
+    }
+}
+    
+    body {
+        background-image: url('../img/planetatomy.jpg');
+        background-size: cover;
+        background-repeat: no-repeat; 
+        background-attachment: fixed; 
+    }
+    .container {
+        position: relative;
+        text-align: center; 
+    }
+    
+    .titulo {
+        font-family: 'Comic Sans MS', cursive; 
+        font-size: 48px; 
+        margin-top: 60px;
+        color: #FFD700;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+    }
+    
+    

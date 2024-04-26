@@ -1,0 +1,407 @@
+*{
+    padding: 0px;
+    margin: 0%;
+    box-sizing: border-box;
+    color:whitesmoke ;
+    
+    position: relative;
+    text-align: center;
+    
+}
+  
+  .fondo-ajustado {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .fondo-ajustado::after {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    mix-blend-mode: multiply; 
+  }
+    
+    header{
+        width: 100%;
+        background: rgb(4, 34, 56);
+        border-radius: 10px; 
+        border: 3px solid rgb(0, 0, 0);
+    }
+    
+    .menu ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .menu li {
+        border-right: 3px solid rgb(0, 0, 0);
+    }
+    
+    .menu li:hover {
+        background: rgba(0, 0, 0, 0.3);
+    }
+    
+    .menu li a {
+        display: block;
+        padding: 15px 242px;
+        color: white;
+        text-decoration: none;
+        transition: all 0.3s ease; 
+        
+        background-color: white(4, 34, 56);
+        color:whitesmoke ;
+        text-shadow: 2px 2px 4px black;
+    }
+
+    a {
+        text-decoration: none; 
+        color: #ffffff;
+        font-family: 'Comic Sans MS', cursive;  
+    }
+
+    a:hover {
+        color: red;
+    }
+
+    @media screen and (min-width: 1280px) {
+        .menu li a {
+            padding: 15px 310px;
+        }
+    }
+    @media screen and (max-width: 1919px) {
+        .menu li a {
+            padding: 15px 260px; 
+        }
+    }
+    @media screen and (max-width: 1870px) {
+        .menu li a {
+            padding: 15px 230px; 
+        }
+    }
+    @media screen and (max-width: 1700px) {
+        .menu li a {
+            padding: 15px 225px; 
+        }
+    }
+    @media screen and (max-width: 1550px) {
+        .menu li a {
+            padding: 15px 200px; 
+        }
+    }
+    @media screen and (max-width: 1400px) {
+        .menu li a {
+            padding: 15px 190px; 
+        }
+    }
+    @media screen and (max-width: 1280px) {
+        .menu li a {
+            padding: 15px 180px; 
+        }
+    }
+    @media screen and (max-width: 1180px) {
+        .menu li a {
+            padding: 15px 160px; 
+        }
+        .rayo1{
+    
+            font-size: 170%;
+        }
+        .rayo2{
+    
+            font-size: 170%;
+        }
+        .rayo3{
+    
+            font-size: 170%;
+        }
+        .rayo4{
+    
+            font-size: 170%;
+        }
+    }
+    @media screen and (max-width: 1080px) {
+        .menu li a {
+            padding: 15px 160px; 
+        }
+        .rayo1{
+    
+            font-size: 150%;
+        }
+        .rayo2{
+    
+            font-size: 150%;
+        }
+        .rayo3{
+    
+            font-size: 150%;
+        }
+        .rayo4{
+    
+            font-size: 150%;
+        }
+    }
+    
+    @media screen and (max-width: 950px) {
+        .menu li a {
+            padding: 15px 160px; 
+        }
+        .rayo1{
+    
+            font-size: 140%;
+        }
+        .rayo2{
+    
+            font-size: 140%;
+        }
+        .rayo3{
+    
+            font-size: 140%;
+        }
+        .rayo4{
+    
+            font-size: 140%;
+        }
+    }
+    @media screen and (max-width: 900px) {
+        .menu li a {
+            padding: 15px 110px; 
+        }
+        .rayo1{
+    
+            font-size: 120%;
+        }
+        .rayo2{
+    
+            font-size: 120%;
+        }
+        .rayo3{
+    
+            font-size: 120%;
+        }
+        .rayo4{
+    
+            font-size: 120%;
+        }
+    }
+    @media screen and (max-width: 800px) {
+        .menu li a {
+            padding: 15px 65px; 
+            font-size: 0.8em;
+            font-size: 180%;
+        }
+        header{
+            width: 138%;
+        }
+        .rayo1{
+    
+            font-size: 110%;
+        }
+        .rayo2{
+    
+            font-size: 110%;
+        }
+        .rayo3{
+    
+            font-size: 110%;
+        }
+        .rayo4{
+    
+            font-size: 110%;
+        }
+        .cajaimg{
+            margin-left: 20%;
+        }
+        .cajaimg2{
+            margin-top: 40%;
+            margin-left: 20%;
+        }
+        .cajaimg4{
+            margin-top: 40%;
+            margin-left: 51%;
+        }
+    }
+    @media screen and (max-width: 700px) {
+        .menu li a {
+            padding: 15px 1px; 
+            font-size: 0.8em;
+            font-size: 180%;
+        }
+        header{
+            width: 138%;
+        }
+        .rayo1{
+    
+            font-size: 100%;
+        }
+        .rayo2{
+    
+            font-size: 100%;
+        }
+        .rayo3{
+    
+            font-size: 100%;
+        }
+        .rayo4{
+    
+            font-size: 100%;
+        }
+        .cajaimg{
+            margin-left: 20%;
+        }
+        .cajaimg2{
+            margin-top: 40%;
+            margin-left: 20%;
+    
+        }
+        .cajaimg4{
+            margin-top: 40%;
+            margin-left: 51%;
+    
+        }
+    }
+    
+    @media screen and (max-width: 500px) {
+        .menu li a {
+            padding: 15px 1px; 
+            font-size: 0.8em;
+            font-size: 180%;
+        }
+        header{
+            width: 138%;
+        }
+        .rayo1{
+    
+            font-size: 70%;
+        }
+        .rayo2{
+    
+            font-size: 70%;
+        }
+        .rayo3{
+    
+            font-size: 70%;
+        }
+        .rayo4{
+    
+            font-size: 70%;
+        }
+        .cajaimg{
+            margin-left: 20%;
+        }
+        .cajaimg2{
+            margin-top: 40%;
+            margin-left: 20%;
+    
+        }
+        .cajaimg4{
+            margin-top: 40%;
+            margin-left: 51%;
+    
+        }
+    }
+    
+   
+body {
+    background-image: url('../img/nucleartomy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.titulo {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 48px;
+    margin-top: 60px;
+    color: #FFD700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+
+.caja {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+
+    position: relative;
+    margin: 0 auto;
+}
+
+.cajatexto{
+    width: 50%;
+    height: 50%;
+    
+    border: 2px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+
+    position: relative;
+    margin: 0 auto;
+    background: fixed;
+    margin-top: 2%;
+    background-color: rgb(4, 34, 56);
+
+}
+
+
+.otracosa{
+    background-color: white(4, 34, 56);
+    color:whitesmoke ;
+    text-shadow: 2px 2px 4px black;
+    justify-content: center;
+    display: flex;
+    padding: 2px;
+    
+    position: relative;
+    text-align: center;
+    margin-top: 1%;
+
+}
+    
+
+.tomyh1{
+
+    background-color: white(4, 34, 56);
+    color:whitesmoke ;
+    text-shadow: 2px 2px 4px black;
+    justify-content: center;
+    display: flex;
+    padding: 2px;
+    
+    position: relative;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 200%
+    
+}
+
+.logoInittomy{
+    width: 5%; 
+    height: 5%; 
+    padding: 5%; 
+    box-sizing: border-box; 
+    background-image: url('../img/logoperro.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    position: relative; 
+    
+    border-radius: 50%;
+    border: 3px solid rgb(4, 34, 56);
+    margin-top: -92.5%;
+    margin-left: 1%;
+}
